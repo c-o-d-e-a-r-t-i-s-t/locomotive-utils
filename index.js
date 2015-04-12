@@ -89,6 +89,10 @@ module.exports = {
 			return c._dbProm(DClass, 'find', fltr, errmsg, errcode);
 		};
 
+		c.deleteObj = function(obj, errmsg, errcode){
+			return c._dbProm(obj, 'remove', undefined, errmsg, errcode);
+		};
+
 		c.saveObj = function(obj, errmsg, errcode){
 			return c._dbProm(obj, 'save', undefined, errmsg, errcode);
 		};
