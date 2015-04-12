@@ -20,7 +20,7 @@
   "license": "MIT",
   "homepage": "http://bla.com/",
   "dependencies": {
-    "locomotive": "0.0.2"
+    "locomotive": ""
   },
   "devDependencies": {
   },
