@@ -64,7 +64,11 @@ module.exports = {
 					if(errmsg) c.sendError(errmsg, errcode);
 					else p.reject(err);
 				} else {
-					p.resolve(rt);
+					if(rt==null){
+						if(errmsg) c.sendError(errmsg, errcode);
+						else p.reject(err);
+					}
+					else p.resolve(rt);
 				}
 			});
 			dbobj[dbmeth].apply(dbobj, ags);
