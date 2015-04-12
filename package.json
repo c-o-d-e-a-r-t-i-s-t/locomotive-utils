@@ -1,0 +1,39 @@
+{
+  "name": "locomotive-utils",
+  "description": "Controller extensions and helpers",
+  "version": "0.0.1",
+  "author": {
+    "name": "F. Percival",
+    "email": "codeartist@frank-percival.net"
+  },
+  "contributors": [
+  ],
+  "keywords": [
+    "locomotive",
+    "json",
+    "extension"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strongloop/express"
+  },
+  "license": "MIT",
+  "homepage": "http://bla.com/",
+  "dependencies": {
+    "locomotive": "0.0.2"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "bin": {
+  },
+  "scripts": {
+  },
+  "readme": "",
+  "bugs": {
+  },
+  "dist": {
+  }
+}
